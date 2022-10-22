@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="travelblog.css">
+    <link rel="icon" type="image/png" href="./travel/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="basediv py-5">
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id="fixedleft">
+            <button id="fbbtn" onclick="window.location.href='https://www.facebook.com/'"></button>
+            <button id="twtbtn" onclick="window.location.href='https://twitter.com/?lang=en-in'"></button>
+            <button id="instabtn" onclick="window.location.href='https://www.instagram.com/'"></button>
+            <button id="linkdbtn" onclick="window.location.href='https://in.linkedin.com/'"></button>
+            <button id="utbbtn" onclick="window.location.href='https://www.youtube.com/'"></button>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 title">
+                <p>I'm Gonna Travel the World.!</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row" id="nvbar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./travel.html">TRAVEL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./photography.html">PHOTOGRAPHY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./destination.html">DESTINATION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./food.html">FOOD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./contact.html">CONTACT</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row my-5">
+            <div class="col-2"></div>
+            <div class="col-8"
+                style="font-family: 'Montserrat', sans-serif; text-align: justify; color:rgb(202, 240, 248);">
+                <h3 class="mb-5 mt-3" style="text-align: center;">Countries</h3>
+
+
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card border-0 bg-transparent" style="width: 18rem;">
+                            <img src="./images/egypt/5.webp" height="200px" class="card-img-top" alt="...">
+                            <div class="card-body" style="text-align: center;">
+                                <a href="#" class="card-link fw-bolder" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop1"
+                                    style="text-decoration: none; color:rgb(202, 240, 248);">EGYPT</a>
+                            </div>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background-color: rgb(202, 240, 248);">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title fw-bolder" style="color: rgb(10, 17, 40);" id="staticBackdropLabel1">EGYPT</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="w-100" style="box-shadow: 6px 6px 10px #000000;"
+                                                src="./images/egypt/3.webp" alt="">
+
+                                            <p style="text-align: justify; color: rgb(10, 17, 40); font-size: 14px;"><br>From 5,000 years
+                                                ago and, for the following
+                                                3,000 years, several rulers, pharaohs and empires left their footprint
+                                                and
+                                                built some of the most stunning and vast temples, buildings and tombs
+                                                ever
+                                                seen. <br><br>
+
+                                                Today, many of these constructions still remain and what once was one of
+                                                the
+                                                greatest civilizations has attracted travelers from all over the world,
+                                                to
+                                                the extent that Egypt has become one of the most visited countries on
+                                                our
+                                                planet. <br><br><b>
+                                                Capital – Cairo <br>
+
+                                                Population – 92,4 million (15th) <br>
+
+                                                Official language: Arabic</b></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 bg-transparent" style="width: 18rem;">
+                            <img src="./images/kenya/4.webp" height="200px" class="card-img-top" alt="...">
+                            <div class="card-body" style="text-align: center;">
+                                <a href="#" class="card-link fw-bolder" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop2"
+                                    style="text-decoration: none; color: rgb(202, 240, 248);">KENYA</a>
+                            </div>
+
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background-color: rgb(202, 240, 248);">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title fw-bolder" style="color: rgb(10, 17, 40);" id="staticBackdropLabel2">KENYA</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="w-100" style="box-shadow: 6px 6px 10px #000000;"
+                                                src="./images/kenya/6.jpg" alt="">
+
+                                            <p style="text-align: justify;  color: rgb(10, 17, 40); font-size: 14px;"><br>For decades,
+                                                Kenya has been famous for being
+                                                home to the best and finest safari in Africa. The Masaai Mara brags
+                                                about
+                                                having the biggest concentration of mammals in the world. This is
+                                                completely
+                                                true, and if you make all your way to Kenya, you must go to the Masaai
+                                                Mara.
+                                                But besides animals and wildlife, the eastern African country is also
+                                                home
+                                                to a fascinating variety of people and culture which can’t be missed.
+                                                Come
+                                                to Kenya and enjoy in one of the most developed and westernized
+                                                countries of
+                                                the whole continent. <br><br><b>
+                                                Capital: Nairobi <br>
+                                                Population: 44 million (31rd) <br>
+                                                Area: 581,309km2 (49th) <br>
+                                                Language: English and Swahili are the 2 official languages <br>
+                                                Religion: Christianism, being Protestants the major group <br>
+                                                Curious fact: Did you know that the capital of Nairobi is the most
+                                                dangerous capital in Africa?</b></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 bg-transparent" style="width: 18rem;">
+                            <img src="./images/georgia/2.jpg" height="200px" class="card-img-top" alt="...">
+                            <div class="card-body" style="text-align: center;">
+                                <a href="#" class="card-link fw-bolder" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop3"
+                                    style="text-decoration: none; color:rgb(202, 240, 248)">GEORGIA</a>
+                            </div>
+
+
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel3"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background-color: rgb(202, 240, 248);">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title fw-bolder" style="color: rgb(10, 17, 40);" id="staticBackdropLabel3">GEORGIA</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="w-100" style="box-shadow: 6px 6px 10px #000000;"
+                                                src="./images/georgia/3.jpg" alt="">
+
+                                            <p style="text-align: justify; color: rgb(10, 17, 40); font-size: 14px;"><br>From an awesome
+                                                Eastern European capital
+                                                to the
+                                                most mind-blowing mountains in Europe, a great coastline, a wine region
+                                                with
+                                                lovely towns and a very strong culture and national character, Georgia
+                                                is
+                                                the ultimate emerging destination. <br><br><b>
+                                                Capital – Tbilisi <br>
+
+                                                Population – 3.7 million (130th) <br>
+
+                                                Language – Georgian</b></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 mx-3">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col mx-5">
+
+                        <div class="card border-0 bg-transparent" style="width: 18rem;">
+                            <img src="./images/uae/1.jpg" height="200px" class="card-img-top" alt="...">
+                            <div class="card-body" style="text-align: center;">
+                                <a href="#" class="card-link fw-bolder" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop4"
+                                    style="text-decoration: none; color:rgb(202, 240, 248);">U A E</a>
+                            </div>
+
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel4"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background-color: rgb(202, 240, 248);">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel4">UNITED ARAB EMIRATES</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="w-100" style="box-shadow: 6px 6px 10px #000000;"
+                                                src="./images/uae/4.webp" alt="">
+
+                                            <p style="text-align: justify; color: rgb(10, 17, 40); font-size: 14px;"><br>Dubai is a city
+                                                which everybody relates to
+                                                skyscrapers, money, consumerism, and materialism. <br>
+
+                                                In the following articles, I want to show you what this country can
+                                                offer
+                                                beyond the popular stereotypes.<br> <br><b>
+                                                Capital – Abu Dhabi <br>
+
+                                                Population – 5.8 million (93rd) <br>
+
+                                                Language – Arabic</b></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ms-5">
+                        <div class="card border-0 bg-transparent" style="width: 18rem;">
+                            <img src="./images/uzbekistan/6.jpg" height="200px" class="card-img-top" alt="...">
+                            <div class="card-body" style="text-align: center;">
+                                <a href="#" class="card-link fw-bolder" data-bs-toggle="modal"
+                                    data-bs-target="#staticBackdrop5"
+                                    style="text-decoration: none; color:rgb(202, 240, 248)">UZBEKISTAN</a>
+                            </div>
+
+
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel5"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content" style="background-color: rgb(202, 240, 248)  ;">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel5">UZBEKISTAN</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="w-100" style="box-shadow: 6px 6px 10px #000000;"
+                                                src="./images/uzbekistan/1.jpg" alt="">
+
+                                            <p style="text-align: justify; color: rgb(10, 17, 40); font-size: 14px;"><br>Once a hermetic
+                                                country with very strict visa
+                                                policies for foreigners, Uzbekistan is slowly opening its borders to
+                                                show
+                                                the world the majesty of what used to be the core and center of the
+                                                ancient
+                                                Silk Road, a country filled with impressive shrines, mosques and
+                                                perfectly
+                                                shaped old cities. <br> <br>
+
+                                                Uzbekistan is the ultimate destination for architecture and history
+                                                lovers,
+                                                but also for travelers who want to visit a real off the beaten track
+                                                destination, as outside of the three main touristic cities, there is
+                                                very
+                                                little Western exposure and the people are extremely hospitable. <br><br><b>
+                                                Capital – Tashkent <br>
+
+                                                Population – 32 million (41st) <br>
+
+                                                Language – Uzbek (a Turkic language) but Russian is widely spoken</b></p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+        <div class="row mt-5" style="text-align: center;">
+            <hr style="height: 5px; color:rgb(202, 240, 248);">
+            <p style="color:rgb(202, 240, 248); font-size: 12px;">anaghaprajeesh2011@gmail.com</p>
+        </div>
+    </div>
+</body>
+<script src="travelblog.js"></script>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+    <link rel="stylesheet" href="travelblog.css">
+    <link rel="icon" type="image/png" href="./travel/icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="basediv py-5">
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+        <div id="fixedleft">
+            <button id="fbbtn" onclick="window.location.href='https://www.facebook.com/'"></button>
+            <button id="twtbtn" onclick="window.location.href='https://twitter.com/?lang=en-in'"></button>
+            <button id="instabtn" onclick="window.location.href='https://www.instagram.com/'"></button>
+            <button id="linkdbtn" onclick="window.location.href='https://in.linkedin.com/'"></button>
+            <button id="utbbtn" onclick="window.location.href='https://www.youtube.com/'"></button>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8 title">
+                <p>I'm Gonna Travel the World.!</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+        <div class="row" id="nvbar">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./travel.html">TRAVEL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./photography.html">PHOTOGRAPHY</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./destination.html">DESTINATION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./food.html">FOOD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link navbar-brand" href="./contact.html">CONTACT</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row my-5">
+            <div class="col-2"></div>
+            <div class="col-8"
+                style="font-family: 'Montserrat', sans-serif; text-align: justify; color:rgb(202, 240, 248);">
+                <h3 class="mb-5 mt-3 pt-5" style="text-align: center;">Get in Touch</h3>
+                <form class="row g-3" style="width: 50%; margin-left: 25%; border-radius: 25px;">
+                    <div class="col-md-6" style="text-align: left;">
+                        <label for="inputName" class="form-label">Your Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+                    </div>
+                    <div class="col-md-6" style="text-align: left;">
+                        <label for="inputEmail" class="form-label">Email Address</label>
+                        <input type="text" class="form-control" id="inputEmail" placeholder="Enter your email address">
+                    </div>
+                    <div class="col-12"></div>
+                    <div class="col-12" style="text-align: left;">
+                        <label for="floatingTextarea" class="form-label">Your Message</label>
+                        <textarea class="form-control" placeholder="Leave your message here"
+                            id="floatingTextarea"></textarea>
+                    </div>
+                    <div class="col-12"></div>
+                    <div class="col-12" style="text-align: center;">
+                        <button type="submit" id="ctbtn" class="btn">Send <i class="fa fa-envelope"
+                                style="font-size:20px; color: rgb(0, 119, 182);"></i></button><br><br>
+                    </div>
+                </form>
+            </div>
+            <div class="col-2"></div>
+        </div>
+
+
+
+        <div class="row mt-5" style="text-align: center;">
+            <hr style="height: 5px; color:rgb(202, 240, 248);">
+            <p style="color:rgb(202, 240, 248); font-size: 12px;">anaghaprajeesh2011@gmail.com</p>
+        </div>
+    </div>
+</body>
+<script src="travelblog.js"></script>
+
+</html>
